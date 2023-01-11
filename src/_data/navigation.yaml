@@ -1,10 +1,10 @@
 ---
 items:
-  - text: Menu One
+  - text: A1 Behörighet
     url: "#"
-  - text: Menu Two
+  - text: Om körkortet
     url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
+  - text: Blogg
     url: "/blog"
+  - text: Kontakt
+    url: "#"
