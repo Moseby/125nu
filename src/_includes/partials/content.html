@@ -1,15 +1,50 @@
-<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
-
-    {% if quicklinks.links %}
-
-        {% for item in quicklinks.links %}
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
-                <h3>{{item.title}}
-                    →</h3>
-                <p>{{item.desc}}</p>
-            </a>
-        {% endfor %}
-
-    {% endif %}
-
+<div class="grid grid-cols-4 gap-4">
+    <div class="col-span-3 grid grid-cols-3 gap-6">
+        <div class="col-span-3">
+        <h3>Populära motorcyklar</h3>
+        </div>
+        <div>
+            <div class="relative flex justify-center">
+                <div class="rounded-lg shadow-xl bg-white max-w-sm border-solid border-2 border-grey-500">
+                <a href="#!">
+                    <img class="rounded-lg w-3/4" src="../static/img/bikes/125exc.jpg" alt=""/>
+                </a>
+                <div class="absolute rounded bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                    <h3 class="text-xl text-white font-bold">
+                        KTM 125 EXC</h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="relative flex justify-center">
+                <div class="rounded-lg shadow-xl bg-white max-w-sm border-solid border-2 border-grey-500">
+                <a href="#!">
+                    <img class="rounded-lg" src="../static/img/bikes/husqvarnate.jpg" alt=""/>
+                </a>
+                <div class="absolute rounded bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                    <h3 class="text-xl text-white font-bold">
+                        Husqvarna TE 125</h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="relative flex justify-center">
+                <div class="rounded-lg shadow-xl bg-white max-w-sm border-solid border-2 border-grey-500">
+                <a href="#!">
+                    <img class="rounded-lg" src="../static/img/bikes/yzf125.jpg" alt=""/>
+                </a>
+                <div class="absolute rounded bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                    <h3 class="text-xl text-white font-bold">
+                        Yamaha YZF 125</h3>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1">
+        <div><h3>Länkar</h3></div>
+        <div>reklam</div>
+    </div>
 </div>
